@@ -1,0 +1,58 @@
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero .title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero .button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.features-section .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.features-section .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.branches-section .title,
+.team-section .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team-section {
+  background: var(--lighter-background-color);
+}
+
+.team-section .name {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team-section .description {
+  text-align: center;
+}

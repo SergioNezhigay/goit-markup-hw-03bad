@@ -1,0 +1,26 @@
+.portfolio-section .button {
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--title-text-color);
+  background-color: var(--lighter-background-color);
+}
+
+.portfolio-section .button:hover,
+.portfolio-section .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-section .name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-section .type {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
