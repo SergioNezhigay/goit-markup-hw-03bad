@@ -1,5 +1,8 @@
 .hero {
+  text-align: center;
   background-color: var(--dark-background-color);
+  padding: 200px 0;
+  margin: 0 auto;
 }
 
 .hero .title {
@@ -7,9 +10,11 @@
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
+
+  margin: 0 auto;
   text-transform: uppercase;
   color: var(--primary-white-color);
+  margin-bottom: 30px;
 }
 
 .hero .button {
@@ -17,42 +22,76 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
+  padding: 10px 32px;
+  margin: 0 auto;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
-.features-section .title {
+.features .list,
+.branches .list,
+.team .list {
+  display: flex;
+}
+
+.features .item {
+  width: calc((100%-90px) / 4);
+}
+
+.features .item:not(:last-child),
+.branches .item:not(:last-child),
+.team .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features .title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
-.features-section .text {
+.features .text {
   font-size: 14px;
   line-height: 1.71;
 }
 
-.branches-section .title,
-.team-section .title {
+.branches .title,
+.team .title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 
-.team-section {
+.team {
   background: var(--lighter-background-color);
 }
 
-.team-section .name {
+.team .item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team .name {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
-.team-section .description {
+.team .description {
   text-align: center;
+}
+
+.team .details {
+  padding: 30px 0;
 }
